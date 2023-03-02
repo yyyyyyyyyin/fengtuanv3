@@ -1,0 +1,19 @@
+.login{
+	background: $qf-bg-color;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.el-form{
+		width: 300px;
+		h1{
+			width: 300px;
+			color: white;
+			font-size: 30px;
+			text-align:center;
+		}
+		.el-select,.el-button{
+			width: 100%;
+		}
+	}
+}

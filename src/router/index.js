@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
-const routes = [];
+const routes = [
+	{
+		path: '/login',
+		component: () => import('@/views/login'),
+	},
+];
 
 const router = createRouter({
 	history: createWebHistory(process.env.BASE_URL),
